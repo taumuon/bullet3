@@ -169,6 +169,11 @@
     <ClInclude Include="BulletDynamics_Android_StaticLibrary.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BulletCollision.Android.StaticLibrary\BulletCollision.Android.StaticLibrary.vcxproj">
+      <Project>{610415c3-c5ae-4906-bdc7-208ab4ee0f68}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
 </Project>
